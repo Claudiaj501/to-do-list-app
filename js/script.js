@@ -7,7 +7,7 @@ function newItem() {
 
 
     if (inputValue === '') {
-        alert('You must write something!');
+        alert('Please enter an item');
     } else {
         $("#list").append(li);  //Using the jQuery selector allows me to skip setting a variable and select #list directly
     }
