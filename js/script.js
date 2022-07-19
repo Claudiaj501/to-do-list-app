@@ -11,3 +11,13 @@ function newItem() {
     } else {
         $("#list").append(li);  //Using the jQuery selector allows me to skip setting a variable and select #list directly
     }
+
+    //Crossing out an item from the list of items
+
+function crossOut() {
+    li.toggleClass("strike");
+    }
+
+    li.on("dblclick", function crossOut() {
+        li.toggleClass("strike");
+    });
